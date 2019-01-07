@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+}
+h3, p{
+padding: 3px;}
+html,body{
+	height: 100%;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.sect{
+	height: 100%;
+	background-color: white;
+	background-size:cover;
+	background-attachment: fixed;
+	background-image: url("../image/white.jpg");
+}
+.subsect{
+	height: 100%;
+	background-image: url("../image/crack.jpg");
+}
+/* index.html */
+
+.sectOne{
+    background-image: url("../image/hotpot.jpg");
+    background-size:cover;
+    background-color: black;
+}
+#main{
+    animation-name: tada;
+    animation-duration: 3s;
+    }
+
+.home-block{
+    display: inline-block;
+    position: relative;
+    left:40%;
+    right:40%;
+    top:39%;
+
+}
+
+.bottom{
+    position: absolute;
+    margin: 30px 0 0 30px;
+    bottom: 30px;
+}
+a{
+    border: 2px solid black;
+    padding: 3px;
+    margin: 0 0 0 50px;
+    color: black;
+}
+a:hover{color: white;}
+
+/* sectTwo */
+.sectTwo{
+
+    height:100%;
+    line-height:22px;
+    }
+#text2{
+    animation-name: slideInRight;
+    animation-duration: 5s;
+}
+#img1{left:40%;
+position: absolute;
+}
+
+.text-block{
+    float: left;
+    margin: 30px 0 0 30px;
+    width:30%;
+    height: 70%;
+    background:rgba(255,255,255,0.5);
+
+}
+
+
+.media-block{
+    float: right;
+    width: 60%;
+    margin: 30px 30px 0 0;
+    height: 70%;
+    }
